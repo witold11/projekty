@@ -1,0 +1,73 @@
+body{
+	background-color: #f5f6f7;
+	color: #0;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	width: 700px;
+	margin-bottom: 5px;
+}
+
+.box{
+	display: flex;
+	align-items: flex-start;
+	padding: 20px;
+	
+}
+
+.box:hover{
+	opacity: 0.6;
+}
+
+.box:nth-child(odd) {
+	background-color: #f2f9ff;
+}
+
+.photo{
+	border-radius: 500px;
+	overflow: hidden;
+	display: inline-block;
+
+}
+
+.photo img{
+	width: 80px;
+	height: 80px; 	
+}
+
+.date{
+	display: inline-block;
+	opacity: 0.6;
+
+}
+
+.content{
+	opacity: 0.6;
+	margin-top: 10px;
+}
+
+
+.name{
+
+}
+
+.topic{
+}
+
+.text{
+	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	flex-grow: 1;
+}
+
+.day{
+	background-color: #fff;
+	padding: 20px;
+	opacity: 0.6;
+	padding-bottom: 50px;
+}
+
