@@ -4,11 +4,11 @@ var browserSync = require('browser-sync').create();
 // Static Server + watching scss/html files
 gulp.task('serve', function() {
     browserSync.init({
-        server: "./strona"
+        server: "./5"
     });
 
-    gulp.watch("strona/*.html").on('change', browserSync.reload);
-    gulp.watch("strona/*.css").on('change', browserSync.reload);
+    gulp.watch("5/*.html").on('change', browserSync.reload);
+    gulp.watch("5/*.css").on('change', browserSync.reload);
 
 });
 
